@@ -9,6 +9,4 @@ def capitalize_first_letters(input_string):
     """
     Capitalizes the first letter of each word in the input string.
     """
-    words = input_string.split()
-    capitalized_words = [word.capitalize() for word in words]
-    return ' '.join(capitalized_words)
+    return input_string.title()
